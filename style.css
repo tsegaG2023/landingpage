@@ -157,14 +157,17 @@ justify-self: flex-end;
     flex-wrap: wrap;
     align-items: center;
 }
+.call-to{
+    flex: 1;
+}
 .call-for-action-container{
     display: flex;
-
     gap: 100px;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     width: 900px;
-    height: 80px;
+    height: auto;
     border-radius: 10px;
     padding: 50px 50px;
     background-color: #3882F6;
@@ -176,7 +179,7 @@ justify-self: flex-end;
     background-color:  #3882F6;
     color: white;
     width: 150px;
-    height: 40px;
+    height: auto;
     border: 1px solid white;
     padding: 8px 2px;
     border-radius: 4px;
