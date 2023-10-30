@@ -13,10 +13,11 @@
 .header{
     display: flex;
     justify-content: space-between;
-  
+    flex-wrap: wrap;
     gap: 30px;
     align-items: center;
     margin-left: 110px;
+    margin-top: 10px;
     margin-right: 100px;
     margin-bottom: 100px;
 
@@ -44,13 +45,29 @@ a{
     flex:1;
   
 }
-.login{
+
+.content{
+    margin-left: 100px;
+    /* margin-right: 100px; */
+    /* width: 900px; */
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+     display: flex;
+     gap:30px;
+     justify-content: space-between;
+     align-items: center;
+     color: #f9faf8;
+     background-color: #1f2937;
+ 
+ }
+ .login{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 25px;
     align-items: stretch;
     padding: 10px 10px;
+    flex: 1;
 }
 .login > button{
     width: 120px;
@@ -62,26 +79,17 @@ a{
     padding: 4px 4px;
     font-weight: bold;
     border: 2px  solid white;
+
  
 }
-.content{
-   /* padding-left: 10px; */
-   margin-left: 100px;
-   margin-right: 100px;
-   margin-bottom: 100px;
-    display: flex;
-    gap:30px;
-    justify-content: space-between;
-    align-items: center;
-    color: #f9faf8;
-    background-color: #1f2937;
 
-}
 .banner{
 flex:1;
 }
 .banner >img{
-    flex: 1;
+border-radius: 5px;
+opacity: 78%;
+box-shadow: #3882F6;
 width: 500px;
 height: auto;
 }
@@ -131,7 +139,7 @@ height: auto;
     align-items: flex-end;
     font-family: 'Dancing Script', cursive;
     height: auto;
-    padding: 25px 200px;
+    padding: 35px 200px;
 
     background-color: #e5e7eb;
 }
